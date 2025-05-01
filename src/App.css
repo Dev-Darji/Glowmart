@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #333333;
+  --accent-color: #d4af37;
+  --text-color: #333333;
+  --light-text: #666666;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-2 border-black text-black px-6 py-3 rounded-md font-medium hover:bg-black hover:text-white transition-colors duration-200;
+}
+
+/* Card styles */
+.product-card {
+  @apply bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300;
+}
+
+/* Section styles */
+.section-title {
+  @apply text-3xl font-bold text-center mb-8;
+}
+
+/* Navigation styles */
+.nav-link {
+  @apply text-gray-700 hover:text-black transition-colors duration-200;
+}
+
+/* Hero section styles */
+.hero-section {
+  @apply relative bg-cover bg-center h-[600px] flex items-center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+/* Category card styles */
+.category-card {
+  @apply relative overflow-hidden rounded-lg;
+}
+
+.category-card img {
+  @apply transition-transform duration-300;
+}
+
+.category-card:hover img {
+  @apply scale-110;
+}
+
+/* Product grid styles */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+/* Review stars */
+.star-rating {
+  @apply flex items-center text-yellow-400;
+}
+
+/* Price styles */
+.price {
+  @apply text-lg font-semibold text-black;
+}
+
+.original-price {
+  @apply text-gray-500 line-through;
+}
+
+.discount-price {
+  @apply text-red-600;
+}
+
+/* Badge styles */
+.badge {
+  @apply absolute top-2 right-2 bg-black text-white text-xs font-bold px-2 py-1 rounded;
+}
+
+/* Responsive container */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

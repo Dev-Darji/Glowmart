@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #333333;
+  --accent-color: #d4af37;
+  --text-color: #333333;
+  --light-text: #666666;
+  --background-color: #ffffff;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 text-white px-6 py-3 rounded-md font-medium hover:bg-primary-600 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-white border-2 border-primary-500 text-primary-500 px-6 py-3 rounded-md font-medium hover:bg-primary-500 hover:text-white transition-colors duration-200;
+  }
+
+  .nav-link {
+    @apply relative font-medium tracking-wide py-1;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute left-0 -bottom-1 w-0 h-0.5 bg-accent transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Dark mode specific styles */
+  .dark .nav-link {
+    @apply text-gray-200 hover:text-white;
+  }
+
+  .dark .nav-link::after {
+    @apply bg-accent opacity-80;
+  }
+
+  /* Light mode specific styles */
+  .nav-link {
+    @apply text-gray-700 hover:text-primary-500;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-center mb-8;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
