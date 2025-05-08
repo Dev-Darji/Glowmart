@@ -5,7 +5,7 @@ export const products = [
     title: "Men's Classic T-Shirt",
     price: 24.99,
     category: "clothing",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.trueclassictees.com/cdn/shop/files/4030_NAVY_03_f33e07bf-3047-4196-8a84-9015c9359a41_800x.jpg",
     description: "Comfortable cotton t-shirt with a classic fit",
     rating: 4.5,
     inStock: true
@@ -15,7 +15,7 @@ export const products = [
     title: "Women's Summer Dress",
     price: 49.99,
     category: "clothing",
-    image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92e1?w=500&auto=format&fit=crop&q=60",
+    image: "https://m.media-amazon.com/images/I/71wRVCh6OgL._SY741_.jpg",
     description: "Light and airy summer dress perfect for warm days",
     rating: 4.8,
     inStock: true
@@ -25,7 +25,7 @@ export const products = [
     title: "Men's Denim Jacket",
     price: 79.99,
     category: "clothing",
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+    image: "https://m.media-amazon.com/images/I/71bA9o8QcaL._SY879_.jpg",
     description: "Classic denim jacket with modern fit",
     rating: 4.6,
     inStock: true
@@ -35,7 +35,7 @@ export const products = [
     title: "Women's Blazer",
     price: 89.99,
     category: "clothing",
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+    image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/blazer/n/x/r/m-rks-cas-fl-yl-rocksy-original-imah3wpa6njjutfr.jpeg?q=90&crop=false",
     description: "Professional blazer for office wear",
     rating: 4.7,
     inStock: true
@@ -67,7 +67,7 @@ export const products = [
     title: "Men's Formal Shoes",
     price: 129.99,
     category: "footwear",
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/678d4a06e9efb05205718fe6/m001-6-.jpg",
     description: "Premium leather formal shoes",
     rating: 4.8,
     inStock: true
@@ -77,7 +77,7 @@ export const products = [
     title: "Women's Boots",
     price: 119.99,
     category: "footwear",
-    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60",
+    image: "https://images-cdn.ubuy.co.in/639a8cb1801093460b7c8f65-jsaierl-women-boots-retro-thick-heel.jpg",
     description: "Comfortable and stylish winter boots",
     rating: 4.6,
     inStock: true
@@ -109,7 +109,7 @@ export const products = [
     title: "Leather Belt",
     price: 39.99,
     category: "accessories",
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&auto=format&fit=crop&q=60",
+    image: "https://omaxwatches.in/cdn/shop/files/WhatsA322aad7_2_d69bd96e-fb82-4951-b53d-190d97f4a007.jpg?v=1736404598",
     description: "Classic leather belt with silver buckle",
     rating: 4.5,
     inStock: true
@@ -131,7 +131,7 @@ export const products = [
     title: "Men's Grooming Kit",
     price: 59.99,
     category: "grooming",
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.puneonlineflorists.com/images/CSCSUUN745_big.webp",
     description: "Complete grooming set for men",
     rating: 4.6,
     inStock: true
@@ -141,7 +141,7 @@ export const products = [
     title: "Premium Shaving Kit",
     price: 79.99,
     category: "grooming",
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.bombayshavingcompany.com/cdn/shop/files/CopyofSmartShaveBathTravelKit-FOPcopy.webp?v=1736143486",
     description: "Luxury shaving set with natural bristle brush",
     rating: 4.8,
     inStock: true
@@ -151,7 +151,7 @@ export const products = [
     title: "Facial Care Set",
     price: 49.99,
     category: "grooming",
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500&auto=format&fit=crop&q=60",
+    image: "https://missuniverseskincare.com/cdn/shop/files/MissU-Web-Complete-Set_grande.jpg?v=1698261590",
     description: "Complete facial care routine set",
     rating: 4.7,
     inStock: true
@@ -161,7 +161,7 @@ export const products = [
     title: "Hair Styling Kit",
     price: 39.99,
     category: "grooming",
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.urbangabru.in/cdn/shop/files/Hair_Styling_Kit_grande.jpg?v=1718348887",
     description: "Professional hair styling products set",
     rating: 4.5,
     inStock: true
@@ -203,7 +203,7 @@ export const products = [
     title: "Wireless Charger",
     price: 39.99,
     category: "electronics",
-    image: "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500&auto=format&fit=crop&q=60",
+    image: "https://www.belkin.com/dw/image/v2/BGBH_PRD/on/demandware.static/-/Sites-master-product-catalog-blk/default/dwf8c64cda/images/hi-res/3/3cdab412a0984f09_WIZ022qcBK_BoostCharger_3in1Pad_Hero_withPSU_WEB.jpg?sw=700&sh=700&sm=fit&sfrm=png",
     description: "Fast wireless charging pad for all devices",
     rating: 4.6,
     inStock: true
